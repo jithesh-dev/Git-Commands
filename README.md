@@ -14,8 +14,9 @@ _If you are interested in my Git aliases, have a look at my `.bash_profile`, fou
 
 ## Main Commands
 
-| Command | Description |
-| `git init` | Initialize a local Git repository |
+| Command                                                           | Description                                |
+| ----------------------------------------------------------------- | ------------------------------------------ |
+| `git init`                                                        | Initialize a local Git repository          |
 | `git status` | Check status |
 | `git pull origin master` | Pull changes from remote repository |
 | `git add -A` | Add all new and changed files to the staging area |
