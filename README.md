@@ -14,14 +14,14 @@ _If you are interested in my Git aliases, have a look at my `.bash_profile`, fou
 
 ## Main Commands
 
-| Command                                                           | Description                                |
-| ----------------------------------------------------------------- | ------------------------------------------ |
-| `git init`                                                        | Initialize a local Git repository          |
-| `git status` | Check status |
-| `git pull origin master` | Pull changes from remote repository |
-| `git add -A` | Add all new and changed files to the staging area |
-| `git commit -m "[commit message]"` | Commit changes |
-| `git push origin [branch name]` | Push a branch to your remote repository |
+| Command                            | Description                                       |
+| ---------------------------------- | ------------------------------------------------- |
+| `git init`                         | Initialize a local Git repository                 |
+| `git status`                       | Check status                                      |
+| `git pull origin master`           | Pull changes from remote repository               |
+| `git add -A`                       | Add all new and changed files to the staging area |
+| `git commit -m "[commit message]"` | Commit changes                                    |
+| `git push origin [branch name]`    | Push a branch to your remote repository           |
 
 ### Getting & Creating Projects
 
@@ -59,6 +59,10 @@ _If you are interested in my Git aliases, have a look at my `.bash_profile`, fou
 | `git merge [source branch] [target branch]`          | Merge a branch into a target branch                     |
 | `git stash`                                          | Stash changes in a dirty working directory              |
 | `git stash clear`                                    | Remove all stashed entries                              |
+| `git stash -u`                                       | Stash untracked files                                   |
+| `git stash list`                                     | listing all stashes                                     |
+| `git stash apply 0`                                  | Apply stash 0                                           |
+| `git stash show 0`                                   | shows files in stash 0                                  |
 
 ### Sharing & Updating Projects
 
