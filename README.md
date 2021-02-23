@@ -60,9 +60,11 @@ _If you are interested in my Git aliases, have a look at my `.bash_profile`, fou
 | `git stash`                                          | Stash changes in a dirty working directory              |
 | `git stash clear`                                    | Remove all stashed entries                              |
 | `git stash -u`                                       | Stash untracked files                                   |
-| `git stash list`                                     | listing all stashes                                     |
+| `git stash list`                                     | Listing all stashes                                     |
 | `git stash apply 0`                                  | Apply stash 0                                           |
-| `git stash show 0`                                   | shows files in stash 0                                  |
+| `git stash show 0`                                   | Shows files in stash 0                                  |
+| `git stash branch #newbranchname 0`                  | New branch from stash                                   |
+| `git stash push -m "#updatemessage"`                 | Stash with message                                      |
 
 ### Sharing & Updating Projects
 
